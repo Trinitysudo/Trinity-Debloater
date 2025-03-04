@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](YOUR_REPO_LINK)
 
-## Xeno Debloater 💻  🪟 Windows 10-11
+## Xeno Debloater  🪟 Windows 10-11
 
 👋 Created by myself (currently looking for contributors)
 
@@ -21,13 +21,13 @@
 
 **This will Install The Compiled exe to your Computer and run it automatically not you building it**
 
-## Method 1 ⬇️
+## ⬇️Method 1 
 
 1. **Go to the realeases tab and download the latest realse**
 2. [🔗 Download Latest Release](https://github.com/Trinitysudo/Trinity-Debloater/releases/latest)
 3. **After downloading the File run it and be dont**
 
-## Method 2 ⬇️
+## ⬇️Method 2 
 
 1.  **Open PowerShell** as administrator.**
 2.  **Copy and paste the following command and press Enter  (**I timed this at 27 Seconds**):**
