@@ -9,11 +9,11 @@
 
 👋 Created by myself (currently looking for contributors)
 
-🔹 ** Easy to use - Simple and clean GUI for effortless navigation.
+🔹 **Easy to use - Simple and clean GUI for effortless navigation**
 
-🔹 ** Inspired by Chris Titus Tool - A more streamlined experience tailored for my needs.
+🔹 **Inspired by Chris Titus Tool - A more streamlined experience tailored for my needs.**
 
-🔹 ** Fully customizable - Select the tweaks and apps that fit your workflow.
+🔹 **Fully customizable - Select the tweaks and apps that fit your workflow.**
 
 ⚡ Why I Made This
 I love the Chris Titus Tech tool, but I found the UI a bit confusing at first. I wanted a modern, easy-to-navigate debloater with only the essential tweaks and apps.
