@@ -1,4 +1,6 @@
-[![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+
+[!Xeno Debloater](https://github.com/user-attachments/assets/14c9f385-933b-4a8a-be11-ee9829d21a91)
+[!Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](YOUR_REPO_LINK)
 
