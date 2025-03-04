@@ -20,7 +20,7 @@ This project was inspired by the Chris Titus Tool, which I think is fantastic. H
 3.  **Copy and paste the following command and press Enter:**
 
     ```powershell
-    Invoke-WebRequest -Uri "YOUR_DOWNLOAD_URL_HERE" -OutFile "$env:USERPROFILE\Downloads\TrinityDebloater.exe"; Start-Process -FilePath "$env:USERPROFILE\Downloads\TrinityDebloater.exe"
+    Invoke-WebRequest -Uri "https://github.com/Trinitysudo/Trinity-Debloater/releases/download/1.0/TrinityDebloater.exe" -OutFile "$env:USERPROFILE\Downloads\TrinityDebloater.exe"; Start-Process -FilePath "$env:USERPROFILE\Downloads\TrinityDebloater.exe"
     ```
 
     **(Replace `YOUR_DOWNLOAD_URL_HERE` with the direct download link to the `TrinityDebloater.exe` file from your releases.)**
