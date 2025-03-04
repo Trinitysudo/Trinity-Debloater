@@ -20,9 +20,7 @@ I love the Chris Titus Tech tool, but I found the UI a bit confusing at first. I
  So, I created Trinity Debloater—a simpler, more intuitive alternative.
 
 ## 📺Preview   (The App Sorting is Cooked Temporaly)
-![Screenshot 2025-03-03 230516](https://github.com/user-attachments/assets/c4ca2801-717b-4640-bf0f-ee4b1135c1bc)
 
-![Screenshot 2025-03-03 230532](https://github.com/user-attachments/assets/0d8ac682-e181-40a5-9a6f-20e123aa2bee)
 
 
  ## ⚙️ Installation
@@ -42,6 +40,13 @@ I love the Chris Titus Tech tool, but I found the UI a bit confusing at first. I
     ```powershell
     Invoke-WebRequest -Uri "https://github.com/Trinitysudo/Trinity-Debloater/releases/download/1.0/TrinityDebloater.exe" -OutFile "$env:USERPROFILE\Downloads\TrinityDebloater.exe"; Start-Process -FilePath "$env:USERPROFILE\Downloads\TrinityDebloater.exe"
     ```
+## 📺Preview   (The App Sorting is Cooked Temporaly)
+![1](https://github.com/user-attachments/assets/882b1ac9-78b1-4853-adb9-5d42e025e23f)
+
+![2](https://github.com/user-attachments/assets/937c0377-6a70-435f-b0a1-d1907a15e14f)
+
+
+
 
 
 ## 🔗 Links
