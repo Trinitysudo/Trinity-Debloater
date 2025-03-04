@@ -9,12 +9,13 @@
 
 👋 Created by myself (currently looking for contributors)
 
-🔹 Easy to use - Simple and clean GUI for effortless navigation.
-🔹 Inspired by Chris Titus Tool - A more streamlined experience tailored for my needs.
-🔹 Fully customizable - Select the tweaks and apps that fit your workflow.
+**🔹 Easy to use - Simple and clean GUI for effortless navigation.**
+**🔹 Inspired by Chris Titus Tool - A more streamlined experience tailored for my needs.**
+**🔹 Fully customizable - Select the tweaks and apps that fit your workflow.**
 
 ⚡ Why I Made This
-I love the Chris Titus Tech tool, but I found the UI a bit confusing at first. I wanted a modern, easy-to-navigate debloater with only the essential tweaks and apps. So, I created Trinity Debloater—a simpler, more intuitive alternative.
+I love the Chris Titus Tech tool, but I found the UI a bit confusing at first. I wanted a modern, easy-to-navigate debloater with only the essential tweaks and apps.
+ So, I created Trinity Debloater—a simpler, more intuitive alternative.
 
 ## 📺Preview   (The App Sorting is Cooked Temporaly)
 ![Screenshot 2025-03-03 230516](https://github.com/user-attachments/assets/c4ca2801-717b-4640-bf0f-ee4b1135c1bc)
