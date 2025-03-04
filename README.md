@@ -24,7 +24,8 @@
 ## Method 1 ⬇️
 
 1. **Go to the realeases tab and download the latest realse**
-2. **After downloading the File run it and be dont**
+2. **(https://github.com/Trinitysudo/Trinity-Debloater/releases/download/1.0/TrinityDebloater.exe)**
+3. **After downloading the File run it and be dont**
 
 ## Method 2 ⬇️
 
