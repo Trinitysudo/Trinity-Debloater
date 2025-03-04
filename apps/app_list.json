@@ -1,0 +1,238 @@
+{
+    "Apps": {
+      "Browsers": [
+        {
+          "name": "Google Chrome",
+          "display_name": "Chrome",
+          "winget_id": "Google.Chrome",
+          "logo": "chrome_logo.png"
+        },
+        {
+          "name": "Opera GX",
+          "display_name": "Opera GX",
+          "winget_id": "Opera.OperaGX",
+          "logo": "operagx_logo.png"
+        },
+        {
+          "name": "Brave Browser",
+          "display_name": "Brave",
+          "winget_id": "BraveSoftware.BraveBrowser",
+          "logo": "brave_logo.png"
+        }
+      ],
+      "Game Development": [
+        {
+          "name": "OBS Studio",
+          "display_name": "OBS Studio",
+          "winget_id": "OBSProject.OBSStudio",
+          "logo": "obsstudio_logo.png"
+        }
+      ],
+      "Media & Communication": [
+        {
+          "name": "Discord",
+          "display_name": "Discord",
+          "winget_id": "Discord.Discord",
+          "logo": "discord_logo.png"
+        },
+        {
+          "name": "Discord Canary",
+          "display_name": "Discord Canary",
+          "winget_id": "Discord.Discord.Canary",
+          "logo": "discordcanary_logo.png"
+        },
+        {
+          "name": "Medal",
+          "display_name": "Medal",
+          "winget_id": "MedalB.V.Medal",
+          "logo": "medal_logo.png"
+        },
+        {
+          "name": "Spotify",
+          "display_name": "Spotify",
+          "winget_id": "Spotify.Spotify",
+          "logo": "spotify_logo.png"
+        },
+        {
+          "name": "Jellyfin Media Player",
+          "display_name": "Jellyfin Player",
+          "winget_id": "Jellyfin.JellyfinMediaPlayer",
+          "logo": "jellyfinmediaplayer_logo.png"
+        },
+        {
+          "name": "Plex Media Player",
+          "display_name": "Plex",
+          "winget_id": "Plex.Plex",
+          "logo": "plex_logo.png"
+        },
+        {
+          "name": "Lively Wallpaper",
+          "display_name": "Lively Wallpaper",
+          "winget_id": "rocksdanister.LivelyWallpaper",
+          "logo": "livelywallpaper_logo.png"
+        },
+        {
+          "name": "MEGAsync",
+          "display_name": "MEGAsync",
+          "winget_id": "Mega.MEGASync",
+          "logo": "megasync_logo.png"
+        }
+      ],
+      "Creative & Design": [
+        {
+          "name": "DaVinci Resolve",
+          "display_name": "DaVinci Resolve",
+          "winget_id": "BlackmagicDesign.DaVinciResolve",
+          "logo": "davinciresolve_logo.png"
+        },
+        {
+          "name": "CapCut",
+          "display_name": "CapCut",
+          "winget_id": "ByteDance.CapCut",
+          "logo": "capcut_logo.png"
+        }
+      ],
+      "Development Tools": [
+        {
+          "name": "Python (Latest)",
+          "display_name": "Python",
+          "winget_id": "Python.Python.3.12",
+          "logo": "python_logo.png"
+        },
+        {
+          "name": "Node.js (LTS)",
+          "display_name": "Node.js",
+          "winget_id": "OpenJS.NodeJS.LTS",
+          "logo": "nodejs_logo.png"
+        },
+        {
+          "name": "Visual Studio Code",
+          "display_name": "VSCode",
+          "winget_id": "Microsoft.VisualStudioCode",
+          "logo": "vscode_logo.png"
+        },
+        {
+          "name": "Git",
+          "display_name": "Git",
+          "winget_id": "Git.Git",
+          "logo": "git_logo.png"
+        },
+        {
+          "name": "Notepad++",
+          "display_name": "Notepad++",
+          "winget_id": "Notepad++.Notepad++",
+          "logo": "notepadpp_logo.png"
+        },
+        {
+          "name": "Putty",
+          "display_name": "PuTTY",
+          "winget_id": "PuTTY.PuTTY",
+          "logo": "putty_logo.png"
+        }
+      ],
+      "System Utilities": [
+        {
+          "name": "Rufus",
+          "display_name": "Rufus",
+          "winget_id": "AkeoConsulting.Rufus",
+          "logo": "rufus_logo.png"
+        },
+        {
+          "name": "Raspberry Pi Imager",
+          "display_name": "Pi Imager",
+          "winget_id": "RaspberryPiFoundation.RaspberryPiImager",
+          "logo": "piimager_logo.png"
+        },
+        {
+          "name": "qBittorrent",
+          "display_name": "qBittorrent",
+          "winget_id": "qBittorrent.qBittorrent",
+          "logo": "qbittorrent_logo.png"
+        },
+        {
+          "name": "7-Zip",
+          "display_name": "7-Zip",
+          "winget_id": "7zip.7zip",
+          "logo": "7zip_logo.png"
+        },
+        {
+          "name": "WinRAR",
+          "display_name": "WinRAR",
+          "winget_id": "RARLab.WinRAR",
+          "logo": "winrar_logo.png"
+        },
+        {
+          "name": "CPU-Z",
+          "display_name": "CPU-Z",
+          "winget_id": "CPUID.CPU-Z",
+          "logo": "cpuz_logo.png"
+        },
+        {
+          "name": "TranslucentTB",
+          "display_name": "TranslucentTB",
+          "winget_id": "CharlesMilette.TranslucentTB",
+          "logo": "translucenttb_logo.png"
+        }
+      ],
+      "Security & Privacy": [
+        {
+          "name": "Mullvad VPN",
+          "display_name": "Mullvad VPN",
+          "winget_id": "MullvadVPN.MullvadVPN",
+          "logo": "mullvadvpn_logo.png"
+        },
+        {
+          "name": "Avast Free Antivirus",
+          "display_name": "Avast",
+          "winget_id": "Avast.AvastFreeAntivirus",
+          "logo": "avast_logo.png"
+        },
+        {
+          "name": "Malwarebytes",
+          "display_name": "Malwarebytes",
+          "winget_id": "Malwarebytes.Malwarebytes",
+          "logo": "malwarebytes_logo.png"
+        },
+        {
+          "name": "Bitwarden",
+          "display_name": "Bitwarden",
+          "winget_id": "Bitwarden.Bitwarden",
+          "logo": "bitwarden_logo.png"
+        }
+      ],
+      "Gaming": [
+        {
+          "name": "Epic Games Launcher",
+          "display_name": "Epic Games",
+          "winget_id": "EpicGames.EpicGamesLauncher",
+          "logo": "epicgames_logo.png"
+        },
+        {
+          "name": "Steam",
+          "display_name": "Steam",
+          "winget_id": "Valve.Steam",
+          "logo": "steam_logo.png"
+        },
+        {
+          "name": "Blizzard Battle.net",
+          "display_name": "Battle.net",
+          "winget_id": "Blizzard.BattleNet",
+          "logo": "battlenet_logo.png"
+        },
+        {
+          "name": "Minecraft Launcher",
+          "display_name": "Minecraft Launcher",
+          "winget_id": "Mojang.MinecraftLauncher",
+          "logo": "minecraftlauncher_logo.png"
+        }
+      ],
+      "Servers & Network": [
+        {
+          "name": "Jellyfin Server",
+          "display_name": "Jellyfin Server",
+          "winget_id": "Jellyfin.Server",
+          "logo": "jellyfinserver_logo.png"
+        }
+      ]
+    }
+  }
