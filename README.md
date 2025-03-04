@@ -14,9 +14,10 @@ This project was inspired by the Chris Titus Tool, which I think is fantastic. H
 
 
  ## ⚙️ Installation
+1. **This will Install The Compiled exe to your Computer and run it automatically not you building it**
 
-1.  **Open PowerShell** as administrator.
-2.  **Copy and paste the following command and press Enter:**
+2.  **Open PowerShell** as administrator.
+3.  **Copy and paste the following command and press Enter:**
 
     ```powershell
     Invoke-WebRequest -Uri "YOUR_DOWNLOAD_URL_HERE" -OutFile "$env:USERPROFILE\Downloads\TrinityDebloater.exe"; Start-Process -FilePath "$env:USERPROFILE\Downloads\TrinityDebloater.exe"
