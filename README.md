@@ -4,7 +4,7 @@
 
 ## Trinity Debloater 💻
 
-**Made by myself only (Looking for others to contribuite)
+**Made by myself only (Looking for others to contribuite)**
 
 
 
@@ -28,6 +28,9 @@ and then started to add multipile apps and tweaks so this would be easier for at
 
 ## 🔗 Links
 
-[Link to Chris Titus Tech Resources](Insert Chris Titus Tech Link Here)
+https://github.com/ChrisTitusTech/winutil
+
+Please check him out for this his tool is way more complex than mine and has extreme more
+features so if you want a more sophisticaited experince use his tool THANKS
 
 Explore the repository for more information and to contribute.
