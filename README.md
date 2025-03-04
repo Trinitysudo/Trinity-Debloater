@@ -14,16 +14,24 @@ This project was inspired by the Chris Titus Tool, which I think is fantastic. H
 
 
  ## ⚙️ Installation
-1. **This will Install The Compiled exe to your Computer and run it automatically not you building it**
 
-2.  **Open PowerShell** as administrator.
-3.  **Copy and paste the following command and press Enter:**
+ **This will Install The Compiled exe to your Computer and run it automatically not you building it**
+
+##Method 1 ⬇️
+
+1. **Go to the realeases tab and download the latest realse 
+2. **After downloading the File run it and be dont
+
+##Method 2 ⬇️
+
+1.  **Open PowerShell** as administrator.
+2.  **Copy and paste the following command and press Enter:**
 
     ```powershell
     Invoke-WebRequest -Uri "https://github.com/Trinitysudo/Trinity-Debloater/releases/download/1.0/TrinityDebloater.exe" -OutFile "$env:USERPROFILE\Downloads\TrinityDebloater.exe"; Start-Process -FilePath "$env:USERPROFILE\Downloads\TrinityDebloater.exe"
     ```
 
-    **(Replace `YOUR_DOWNLOAD_URL_HERE` with the direct download link to the `TrinityDebloater.exe` file from your releases.)**
+    **I timed this at 27 Seconds**
 
 ## 🔗 Links
 
