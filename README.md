@@ -1,20 +1,19 @@
 [![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![PyQt Version](https://img.shields.io/badge/PyQt-6-brightgreen)](https://www.riverbankcomputing.com/software/pyqt/)
+[![USING CHRISH TITUS CREDIT](https://github.com/ChrisTitusTech/winutil)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](YOUR_REPO_LINK)
 
-# Trinity Debloater
+# Trinity Debloater 💻
 
-Streamline your Windows experience with **Trinity Debloater**, a PyQt6 application designed to remove bloatware and apply performance-enhancing tweaks. Reclaim system resources and enjoy a faster, more responsive PC.
+*Made by myself only (Looking for others to contribuite)
 
-## ✨ Key Features
-
-*   ✅ Effortless Bloatware Removal: Quickly uninstall unwanted applications using Winget.
-*   ✅ Curated System Tweaks: Implement proven optimizations based on Chris Titus Tech's recommendations.
-*   ✅ Intuitive Dark UI: A clean, modern interface makes navigation and usage a breeze.
-*   ✅ Lightweight and Efficient: Minimal system resource usage ensures a smooth debloating process.
-*   ✅ Detailed Action Logging: Track all changes for easy review or rollback.
-*   ✅ Secure Privilege Management: Seamlessly handles administrator privileges for required tasks.
+The Tool is a Python written tool compiled into a  Exe using pyinstaller, this tools purpose
+is to be the most simpile but yet sleek and sophisticaited for power users to also get to 
+enjoy what it offers, before i explain some of the uses let me say i got all of the inspiration
+from the Chris Titus Tool, i think the tool is amazing, the only complaint i had was the way
+it was kinda hard to navigaite and how many extra apps there were for my needs and the tweaks
+were a bit confusing for me when i first started. So with that in mind i made the GUI more modern
+and then started to add multipile apps and tweaks so this would be easier for atleast my use so enjoy
 
 ## ⚙️ Installation
 
