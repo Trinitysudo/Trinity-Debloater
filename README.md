@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](YOUR_REPO_LINK)
 
-## Xeno Debloater 💻  🪟 WINDOWS 10-11
+## Xeno Debloater 💻  🪟 Windows 10-11
 
 👋 Created by myself (currently looking for contributors)
 
