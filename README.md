@@ -1,5 +1,5 @@
 [![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![USING CHRISH TITUS CREDIT](https://github.com/ChrisTitusTech/winutil)
+[![Winutil](https://github.com/ChrisTitusTech/winutil)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](YOUR_REPO_LINK)
 
