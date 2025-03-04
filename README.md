@@ -1,21 +1,25 @@
-# Trinity Debloater: Streamline Your Windows Experience
+# Trinity Debloater: Streamlined Windows Performance
 
-**Trinity Debloater** is a modern PyQt6 application designed to optimize Windows performance by removing unnecessary bloatware and applying essential system tweaks. Reclaim valuable resources and ensure a faster, cleaner, and more responsive PC.
+[![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![PyQt Version](https://img.shields.io/badge/PyQt-6-brightgreen)](https://www.riverbankcomputing.com/software/pyqt/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](YOUR_REPO_LINK/graphs/commit-activity)
 
-**Key Features:**
 
-*   ✅ **Simplified App Removal:**  Easily uninstall unwanted pre-installed applications using Winget for efficient and silent removal.
-*   ✅ **Curated System Tweaks:**  Integrates Chris Titus Tech's standard tweaks, allowing users to apply proven performance and privacy optimizations with simple checkboxes.
-*   ✅ **Clean & Intuitive Dark UI:**  Features a sleek, modern dark theme built with PyQt6 for a user-friendly experience.
-*   ✅ **Tabbed Interface:**  Organized into "Apps" and "Tweaks" tabs for straightforward navigation.
-*   ✅ **Lightweight & Optimized:**  Designed for minimal resource usage and fast operation.
-*   ✅ **Action Logging:**  Provides transparent logging of all changes made by the application.
-*   ✅ **Administrator Privilege Management:**  Handles necessary administrator elevation seamlessly.
-*   ✅ **Maintained: Yes** - Actively developed and updated.
+Optimize your Windows experience with Trinity Debloater, a PyQt6 application designed to remove bloatware and apply performance-enhancing tweaks. Reclaim system resources and enjoy a faster, more responsive PC.
 
-**Effortless Installation:**
 
-Install Trinity Debloater with a single line of PowerShell:
+## ✨ Features
+
+* **Effortless Bloatware Removal:** Quickly uninstall unwanted applications using Winget.
+* **Curated System Tweaks:**  Implement proven optimizations based on Chris Titus Tech's recommendations. [Link to Chris Titus Tech Resources]
+* **Intuitive Dark UI:**  A clean, modern interface makes navigation and usage a breeze.
+* **Lightweight and Efficient:** Minimal system resource usage ensures a smooth debloating process.
+* **Detailed Action Logging:** Track all changes for easy review or rollback.
+* **Secure Privilege Management:**  Seamlessly handles administrator privileges for required tasks.
+
+## ⚙️ Installation (PowerShell)
 
 ```powershell
-Invoke-WebRequest -Uri "YOUR_DOWNLOAD_URL_HERE" -OutFile "$env:USERPROFILE\Downloads\TrinityDebloater.exe"; Start-Process -FilePath "$env:USERPROFILE\Downloads\TrinityDebloater.exe"
+Invoke-WebRequest -Uri "YOUR_DOWNLOAD_URL_HERE" -OutFile "$env:USERPROFILE\Downloads\TrinityDebloater.exe"
+Start-Process -FilePath "$env:USERPROFILE\Downloads\TrinityDebloater.exe"
