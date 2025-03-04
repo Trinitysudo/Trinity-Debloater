@@ -12,6 +12,11 @@
 🟢Trinity Debloater is designed to be the most straightforward, sleek, and sophisticated tool for power users. My goal was to create something that would be easy to navigate, while still providing all the essential features for optimizing Windows performance.
 This project was inspired by the Chris Titus Tool, which I think is fantastic. However, I found the navigation to be a bit difficult, with too many apps I didn’t need and some tweaks that were a little confusing. I aimed to fix this by simplifying the process and creating a modern, user-friendly GUI, while still offering useful apps and tweaks for those who want them.
 
+## Preview 
+![Screenshot 2025-03-03 230516](https://github.com/user-attachments/assets/c4ca2801-717b-4640-bf0f-ee4b1135c1bc)
+Main Apps GUI start up
+![Screenshot 2025-03-03 230532](https://github.com/user-attachments/assets/0d8ac682-e181-40a5-9a6f-20e123aa2bee)
+Tweaks Section
 
  ## ⚙️ Installation
 
