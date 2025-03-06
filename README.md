@@ -11,6 +11,8 @@
 
 🔹 **Easy to use - Simple and clean GUI for effortless navigation**
 
+🔹 **M.A.S Mass Activation Script in use in the Tool Combined two make it perfect**
+
 🔹 **Inspired by Chris Titus Tool - A more streamlined experience tailored for my needs.**
 
 🔹 **Fully customizable - Select the tweaks and apps that fit your workflow.**
