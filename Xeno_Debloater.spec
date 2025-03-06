@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['trinity_debloater.py'],
+    ['xeno_debloater.py'],
     pathex=[],
     binaries=[],
     datas=[ ('config', 'config'), ('apps', 'apps'), ('assets', 'assets') ],

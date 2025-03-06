@@ -1,0 +1,23 @@
+2025-03-05 22:00:08,433 - INFO - Trinity Debloater started.
+2025-03-05 22:00:08,510 - INFO - Creating Apps tab content.
+2025-03-05 22:00:08,511 - INFO - Loading app list from: C:\Users\drewm\AppData\Local\Temp\_MEI102802\apps/app_list.json
+2025-03-05 22:00:08,511 - INFO - Successfully loaded app categories: Browsers, Game Development, Media & Communication, Creative & Design, Development Tools, System Utilities, Security & Privacy, Gaming, Servers & Network
+2025-03-05 22:00:08,968 - INFO - Creating Tweaks tab content with Chris Titus standard tweaks.
+2025-03-05 22:00:08,968 - INFO - Loading Chris Titus standard tweaks from: C:\Users\drewm\AppData\Local\Temp\_MEI102802\config/chris_titus_standard_tweaks.json
+2025-03-05 22:00:08,968 - INFO - Successfully loaded 14 Chris Titus standard tweaks
+2025-03-05 22:00:08,977 - INFO - Creating Activation tab content.
+2025-03-05 22:00:08,978 - INFO - Creating Appearance tab content.
+2025-03-05 22:00:38,888 - INFO - Trinity Debloater closing.
+2025-03-05 22:02:27,493 - INFO - Trinity Debloater started.
+2025-03-05 22:02:27,568 - INFO - Creating Apps tab content.
+2025-03-05 22:02:27,568 - INFO - Loading app list from: C:\Users\drewm\AppData\Local\Temp\_MEI92682\apps/app_list.json
+2025-03-05 22:02:27,569 - INFO - Successfully loaded app categories: Browsers, Game Development, Media & Communication, Creative & Design, Development Tools, System Utilities, Security & Privacy, Gaming, Servers & Network
+2025-03-05 22:02:28,026 - INFO - Creating Tweaks tab content with Chris Titus standard tweaks.
+2025-03-05 22:02:28,026 - INFO - Loading Chris Titus standard tweaks from: C:\Users\drewm\AppData\Local\Temp\_MEI92682\config/chris_titus_standard_tweaks.json
+2025-03-05 22:02:28,026 - INFO - Successfully loaded 14 Chris Titus standard tweaks
+2025-03-05 22:02:28,036 - INFO - Creating Activation tab content.
+2025-03-05 22:02:28,037 - INFO - Creating Appearance tab content.
+2025-03-05 22:02:57,669 - INFO - Starting Windows activation using M.A.S.
+2025-03-05 22:03:07,176 - INFO - PowerShell command: powershell -ExecutionPolicy Bypass -Command "irm https://get.activated.win | iex"
+2025-03-05 22:03:07,176 - INFO - PowerShell stdout: 
+2025-03-05 22:03:33,466 - INFO - Trinity Debloater closing.

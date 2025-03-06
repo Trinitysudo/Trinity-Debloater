@@ -3,7 +3,7 @@
     {
       "Name": "Disable Activity History",
       "Description": "This erases recent docs, clipboard, and run history.",
-      "Category": "Essential Tweaks",
+      "Category": "Privacy",
       "Registry": [
         {
           "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System",
@@ -27,8 +27,8 @@
     },
     {
       "Name": "Disable Hibernation",
-      "Description": "Hibernation is really meant for laptops as it saves what's in memory before turning the pc off. It really should never be used, but some people are lazy and rely on it. Don't be like Bob. Bob likes hibernation.",
-      "Category": "Essential Tweaks",
+      "Description": "Disables hibernation to save disk space and potential performance issues.",
+      "Category": "System",
       "Registry": [
         {
           "Path": "HKLM:\\System\\CurrentControlSet\\Control\\Session Manager\\Power",
@@ -47,8 +47,8 @@
     },
     {
       "Name": "Disable Homegroup",
-      "Description": "Disables HomeGroup - HomeGroup is a password-protected home networking service that lets you share your stuff with other PCs that are currently running and connected to your network.",
-      "Category": "Essential Tweaks",
+      "Description": "Disables HomeGroup, a deprecated home networking feature.",
+      "Category": "Networking",
       "Service": [
         {
           "Name": "HomeGroupListener",
@@ -62,8 +62,8 @@
     },
     {
       "Name": "Disable Location Tracking",
-      "Description": "Disables Location Tracking...DUH!",
-      "Category": "Essential Tweaks",
+      "Description": "Disables location tracking for privacy.",
+      "Category": "Privacy",
       "Registry": [
         {
           "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\location",
@@ -93,8 +93,8 @@
     },
     {
       "Name": "Set Services to Manual",
-      "Description": "Turns a bunch of system services to manual that don't need to be running all the time. This is pretty harmless as if the service is needed, it will simply start on demand.",
-      "Category": "Essential Tweaks",
+      "Description": "Sets various non-essential services to Manual startup.",
+      "Category": "System",
       "Service": [
         {
           "Name": "AJRouter",
@@ -1213,10 +1213,6 @@
           "StartupType": "Manual"
         },
         {
-          "Name": "wscsvc",
-          "StartupType": "AutomaticDelayedStart"
-        },
-        {
           "Name": "wuauserv",
           "StartupType": "Manual"
         },
@@ -1225,6 +1221,75 @@
           "StartupType": "Manual"
         }
       ]
+    },
+    {
+      "Name": "Remove Edge",
+      "Description": "Uninstalls Microsoft Edge. Requires admin privileges.",
+      "Category": "Apps",
+      "Command": "Get-AppxPackage -AllUsers -Name Microsoft.MicrosoftEdge* | Remove-AppxPackage -AllUsers; Remove-Item -Path \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Edge.lnk\" -Force"
+    },
+    {
+      "Name": "Remove OneDrive",
+      "Description": "Uninstalls OneDrive. Requires admin privileges.",
+      "Category": "Apps",
+      "Command": "Get-AppxPackage -AllUsers -Name Microsoft.OneDrive* | Remove-AppxPackage -AllUsers; Remove-Item -Path \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\OneDrive.lnk\" -Force"
+    },
+    {
+      "Name": "Remove Outlook",
+      "Description": "Uninstalls Outlook if installed as an Appx package. Requires admin privileges.",
+      "Category": "Apps",
+      "Command": "Get-AppxPackage -AllUsers -Name Microsoft.OutlookForWindows* | Remove-AppxPackage -AllUsers"
+    },
+    {
+      "Name": "Remove 'About this picture' on Desktop",
+      "Description": "Removes the 'About this picture' text from the desktop background.",
+      "Category": "Appearance",
+      "Registry": [
+        {
+          "Path": "HKCU:\\Control Panel\\Desktop",
+          "Name": "LockScreenImageDisableLockScreenContextMenus",
+          "Type": "REG_DWORD",
+          "Value": 1
+        }
+      ]
+    },
+    {
+      "Name": "Unpin Start Windows Guide Items",
+      "Description": "Unpins all default items from the Start Windows Guide.",
+      "Category": "Appearance",
+      "Command": "$Shell = New-Object -ComObject WScript.Shell; $Shell.Run(\"shell:::{4234d49b-2b00-4529-b727-3a90dcf4359a}\"); Start-Sleep -Seconds 2;  (New-Object -ComObject WScript.Shell).SendKeys('^{DEL}');"
+    },
+     {
+      "Name": "Remove Recommended Section in Start Menu",
+      "Description": "Removes the Recommended section from the Start menu.",
+      "Category": "Appearance",
+      "Registry": [
+        {
+          "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+          "Name": "ShowRecommendations",
+          "Type": "REG_DWORD",
+          "Value": 0
+        }
+      ]
+    },
+        {
+          "Name": "Remove Unwanted Apps (Bloatware)",
+          "Description": "Uninstalls common pre-installed apps.  Edit the script to customize the app list.",
+          "Category": "Apps",
+          "Command": "$applist = @(\"Microsoft.People\", \"Microsoft.ZuneVideo\", \"Microsoft.ZuneMusic\", \"Microsoft.WindowsMaps\", \"Microsoft.WindowsAlarms\", \"Microsoft.GetHelp\", \"Microsoft.Getstarted\", \"Microsoft.ConnectivityStore\", \"Microsoft.CommsPhone\", \"Microsoft.BingWeather\"); foreach ($app in $applist) {Get-AppxPackage -AllUsers -Name $app | Remove-AppxPackage -AllUsers}"
+        },
+    {
+      "Name": "Disk Cleanup (C:)",
+      "Description": "Runs Disk Cleanup on the C: drive to remove temporary files.",
+      "Category": "System",
+      "Command": "Cleanmgr.exe /d C: /VERYLOWDISKSPACE /SETUP"
+    },
+    {
+      "Name": "Remove Temp Folder Contents",
+      "Description": "Deletes all files and folders within the system's temporary folder.",
+      "Category": "System",
+      "Command": "$tempPath = [System.IO.Path]::GetTempPath(); Get-ChildItem -Path $tempPath -Force | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
     }
   ]
 }
+
