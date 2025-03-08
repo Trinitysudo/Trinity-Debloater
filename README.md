@@ -7,7 +7,6 @@
 
 ## Xeno Debloater  🪟 Windows 10-11
 
-👋 Created by myself (currently looking for contributors)
 
 🔹 **Easy to use - Simple and clean GUI for effortless navigation**
 
