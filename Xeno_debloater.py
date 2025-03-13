@@ -172,12 +172,12 @@ class TrinityDebloaterGUI(QMainWindow):
         failed_tweaks = []
 
         try:
-            # 1. TranslucentTB Handling
+            # 1. TranslucentTB Handling |Removed mainly if errors please ignore!
             if not self.start_translucent_tb(): # Try to start, if fails, try fallback
                 logging.warning("Failed to start TranslucentTB from default paths. Attempting fallback: Uninstall and reinstall via winget.")
                 failed_tweaks.append("TranslucentTB Start Failed (Initial)")
 
-                # --- Fallback: Uninstall and Reinstall TranslucentTB ---
+                # --- Fallback: Uninstall and Reinstall TranslucentTB --- |removed
                 uninstall_success = self.uninstall_translucent_tb_winget() # Attempt uninstall via winget first
                 if uninstall_success:
                     logging.info("TranslucentTB uninstalled successfully (fallback).")
@@ -205,7 +205,7 @@ class TrinityDebloaterGUI(QMainWindow):
             else:
                 successful_tweaks.append("TranslucentTB Started")
 
-            # 2. Unpin Start Menu Tiles - Using Provided Command
+            # 2. Unpin Start Menu Tiles - Using Provided Command| Isnt Working as of 3/13/25
             ps_command_unpin_start = """
             Get-StartApps | ForEach-Object { Start-Process "shell:AppsFolder\\$_.AppID" -ArgumentList "/unpinfromstart" -NoNewWindow -PassThru }
             """
@@ -214,8 +214,8 @@ class TrinityDebloaterGUI(QMainWindow):
             else:
                 failed_tweaks.append("Start Menu Tiles Unpin Failed")
 
-            # 3. Set Background (already working)
-            background_path = self.get_resource_path("assets/Xeno_Debloater.png")
+            # 3. Set Background  issues with selection
+            background_path = self.get_resource_path("assets/Xeno_Debloater_white.png")
             ps_command_background = f"""
             $Path = '{background_path}';
             $WallpaperStyle = 'Fill';
@@ -264,7 +264,7 @@ class TrinityDebloaterGUI(QMainWindow):
             else:
                 failed_tweaks.append("Taskbar Items Remove Failed")
 
-            # 8. Remove OneDrive Icon (Requires knowing the exact registry key name, may vary) (already working)
+            # 8. Remove OneDrive Icon issue
             ps_command_onedrive = """
             if (Test-Path -Path 'HKCU:\\Software\\Classes\\CLSID\\{018D5C66-4533-4307-9E7D-EEA822470300}') {
                 Remove-Item -Path 'HKCU:\\Software\\Classes\\CLSID\\{018D5C66-4533-4307-9E7D-EEA822470300}' -Force -Recurse
