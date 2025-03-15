@@ -28,7 +28,7 @@
 
 ### ⬇️ Method 2 
 
-1. **Open PowerShell as administrator.**
+1. **Open PowerShell as administrator (Compiling The code and Building it yourself).**
 2. **Copy and paste the following command and press Enter (I timed this at 27 Seconds):**
    
    ```powershell
