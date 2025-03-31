@@ -225,14 +225,6 @@
           "winget_id": "Mojang.MinecraftLauncher",
           "logo": "minecraftlauncher_logo.png"
         }
-      ],
-      "Servers & Network": [
-        {
-          "name": "Jellyfin Server",
-          "display_name": "Jellyfin Server",
-          "winget_id": "Jellyfin.Server",
-          "logo": "jellyfinserver_logo.png"
-        }
       ]
     }
   }
